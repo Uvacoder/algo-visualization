@@ -2,10 +2,10 @@
 	"name": "algo-visualization",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "vite dev --port 3030",
+		"dev": "vite dev",
 		"build": "yarn run check && vite build",
 		"package": "svelte-kit package",
-		"preview": "vite preview --port 3030",
+		"preview": "vite preview",
 		"prepare": "svelte-kit sync",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
